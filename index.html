@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MK Scripts Repository for PixInsight</title>
+    <style>
+        /* Global Reset & Styling */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #121212;
+            color: #e0e0e0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+
+        /* Central Container Card */
+        .container {
+            background-color: #1e1e1e;
+            padding: 45px 40px;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+            max-width: 720px;
+            width: 100%;
+            text-align: center;
+            border: 1px solid #2d2d2d;
+        }
+
+        /* Main Repository Title */
+        .repo-title {
+            color: #ffffff;
+            font-size: 2.2rem;
+            font-weight: 700;
+            margin-bottom: 8px;
+            letter-spacing: -0.5px;
+        }
+
+        .repo-subtitle {
+            color: #888888;
+            font-size: 1rem;
+            margin-bottom: 35px;
+        }
+
+        /* Script Sections */
+        .script-card {
+            background-color: #161616;
+            border: 1px solid #2a2a2a;
+            border-radius: 8px;
+            padding: 25px 20px;
+            margin-bottom: 25px;
+            text-align: left;
+        }
+
+        .script-title {
+            color: #ffffff;
+            font-size: 1.4rem;
+            font-weight: 600;
+            margin-bottom: 12px;
+            border-bottom: 1px solid #2a2a2a;
+            padding-bottom: 8px;
+        }
+
+        .script-description {
+            color: #b0b0b0;
+            font-size: 0.98rem;
+            line-height: 1.6;
+        }
+
+        /* Installation Section at Bottom */
+        .installation-section {
+            margin-top: 35px;
+            border-top: 1px solid #2d2d2d;
+            padding-top: 30px;
+        }
+
+        .instruction-heading {
+            color: #ffffff;
+            font-size: 1.1rem;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+
+        .instruction-sub {
+            color: #b0b0b0;
+            font-size: 0.98rem;
+            margin-bottom: 20px;
+        }
+
+        .instruction-sub em {
+            font-style: italic;
+            color: #ffffff;
+        }
+
+        /* Repository Link Container */
+        .url-box {
+            background-color: #2a2a2a;
+            border: 1px solid #3d3d3d;
+            border-radius: 6px;
+            padding: 14px 20px;
+            display: inline-block;
+            width: 100%;
+            font-family: "Courier New", Courier, monospace;
+            font-size: 0.95rem;
+            color: #4da6ff;
+            word-break: break-all;
+            user-select: all;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1 class="repo-title">MK Scripts Repository</h1>
+        <p class="repo-subtitle">Official PixInsight Scripts by Mohammed Khalifa (mhk.astro)</p>
+
+        <div class="script-card">
+            <h2 class="script-title">1. MK Star Reduction</h2>
+            <p class="script-description">
+                Performs fast, continuous star reduction using the Transfer Method. Features interactive split-view comparisons, live toggle controls, scale protection options, and a mini-map navigator for real-time visual feedback before applying changes.
+            </p>
+        </div>
+
+        <div class="script-card">
+            <h2 class="script-title">2. MK Color Range Selection</h2>
+            <p class="script-description">
+                An advanced interactive mask generation tool designed to precisely target and isolate specific color tones across astronomical images. Features dual side-by-side previews with independent zoom/pan, multi-point additive color sampling, sample-size averaging (1x1, 3x3, 5x5), linear auto-stretch, real-time color tolerance, Gaussian blur softening, and overall opacity controls.
+            </p>
+        </div>
+
+        <div class="installation-section">
+            <div class="instruction-heading">To install this repository in PixInsight:</div>
+            <p class="instruction-sub">
+                Go to <em>Resources > Updates > Manage Repositories</em> and add the following URL:
+            </p>
+
+            <div class="url-box">
+                https://your-repository-url-here/
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

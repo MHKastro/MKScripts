@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xri version="1.0">
+   <description>
+      <p>Official PixInsight Script Repository by Mohammed Khalifa (mhk.astro).</p>
+   </description>
+   <platform os="all" arch="all" version="1.9.4:1.9.9999">
+
+      <package fileName="mk_color_range_selection_v1.0.zip" 
+               sha1="f618b2ad414b0af618786428e91a620462ef8248" 
+               type="script" 
+               releaseDate="20260727">
+         <title>
+            MK Color Range Selection
+         </title>
+         <description>
+            <p>Interactive color-range mask generation tool designed for targeted color isolation in PixInsight.</p>
+         </description>
+      </package>
+
+      <package fileName="mk_star_reduction_v1.1.zip" 
+               sha1="76264adc726302b22e2538f980a4cde4ca4d91ba" 
+               type="script" 
+               releaseDate="20260727">
+         <title>
+            MK Star Reduction
+         </title>
+         <description>
+            <p>Performs precise star reduction using the Transfer Method with live preview controls.</p>
+         </description>
+
+   </platform>
+</xri>
