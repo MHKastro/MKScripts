@@ -6,7 +6,7 @@
    <platform os="all" arch="all" version="1.9.4:1.9.9999">
 
       <package fileName="mk_color_range_selection_v1.0.zip" 
-               sha1="f618b2ad414b0af618786428e91a620462ef8248" 
+               sha1="76264adc726302b22e2538f980a4cde4ca4d91ba" 
                type="script" 
                releaseDate="20260727">
          <title>
@@ -18,7 +18,7 @@
       </package>
 
       <package fileName="mk_star_reduction_v1.1.zip" 
-               sha1="fd07f2a1eb58231367a1fb4d2ff3c09b62fbb15a" 
+               sha1="f618b2ad414b0af618786428e91a620462ef8248" 
                type="script" 
                releaseDate="20260727">
          <title>
