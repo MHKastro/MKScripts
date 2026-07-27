@@ -26,8 +26,9 @@
          </title>
          <description>
             <p>Performs precise star reduction using the Transfer Method with live preview controls.</p>
-
          </description>
+      </package>
+
 <package fileName="mk_colorize_by_mask_v1.0.zip" 
          sha1="38a75d1f3a4de95ccc45840b223558e193bda307" 
          type="script" 
