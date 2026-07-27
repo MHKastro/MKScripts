@@ -6,9 +6,9 @@
    <platform os="all" arch="all" version="1.9.4:1.9.9999">
 
       <package fileName="mk_color_range_selection_v1.0.zip" 
-               sha1="76264adc726302b22e2538f980a4cde4ca4d91ba" 
+               sha1="005f0d74b2ef7f4be941347c057d2de86a7839ed" 
                type="script" 
-               releaseDate="20260728">
+               releaseDate="20260727">
          <title>
             MK Color Range Selection
          </title>
@@ -18,9 +18,9 @@
       </package>
 
       <package fileName="mk_star_reduction_v1.1.zip" 
-               sha1="f618b2ad414b0af618786428e91a620462ef8248" 
+               sha1="9d9955a9eba37fb0662b6dc24fe95d18dfa88c6d" 
                type="script" 
-               releaseDate="20260728">
+               releaseDate="20260727">
          <title>
             MK Star Reduction
          </title>
@@ -29,17 +29,17 @@
          </description>
       </package>
 
-      <package fileName="mk_colorize_by_mask_v1.0.zip" 
-               sha1="bb6766bcce0ff3781980bf7a6bfd9ca59323254d" 
-               type="script" 
-               releaseDate="20260728">
+<package fileName="mk_colorize_by_mask_v1.0.zip" 
+         sha1="9d236ac05d5232dbb3ecd8718e04892eeae02992" 
+         type="script" 
+         releaseDate="20260728">
          <title>
             MK Colorize By Mask
          </title>
          <description>
             <p>Advanced Color Tinting tool designed for astrophotography. Features a dynamic HSV Color Map, precise 0-255 RGB numeric inputs, true Luminance Protection, Split-Toning, and multiple blend modes.</p>
          </description>
-      </package>
+</package>
 
    </platform>
 </xri>
