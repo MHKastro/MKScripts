@@ -27,6 +27,5 @@
          <description>
             <p>Performs precise star reduction using the Transfer Method with live preview controls.</p>
          </description>
-
-   </platform>
+      </package> </platform>
 </xri>
