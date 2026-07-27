@@ -18,7 +18,7 @@
       </package>
 
       <package fileName="mk_star_reduction_v1.1.zip" 
-               sha1="76264adc726302b22e2538f980a4cde4ca4d91ba" 
+               sha1="fd07f2a1eb58231367a1fb4d2ff3c09b62fbb15a" 
                type="script" 
                releaseDate="20260727">
          <title>
@@ -27,5 +27,7 @@
          <description>
             <p>Performs precise star reduction using the Transfer Method with live preview controls.</p>
          </description>
-      </package> </platform>
+      </package>
+
+   </platform>
 </xri>
